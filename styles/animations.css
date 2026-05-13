@@ -30,7 +30,7 @@
   }
 }
 
-.card__icon-button .is-liked .heart {
+.is-liked .heart {
   animation: heart 0.3s ease-in 0.1s 1;
   transform-origin: center;
 }
@@ -81,11 +81,11 @@
   transition: fill 0.3s linear 0.05s;
 }
 
-.card__icon-button .is-liked .contour {
+.is-liked .contour {
   fill: var(--animation-fill-color);
   transition: fill 0.3s linear 0.06s;
 }
 
-.card__icon-button .is-liked .sparks {
+.is-liked .sparks {
   animation: sparks 0.3s ease-in;
 }
