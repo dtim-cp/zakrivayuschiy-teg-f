@@ -11,8 +11,9 @@
 */
 
 .page {
-  display: grid;
-  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   font-family: var(--main-font);
   background-image: var(--bg-image);
   background-repeat: repeat;
@@ -62,6 +63,7 @@
 
 .cards__section {
   display: grid;
+  justify-content: center;
   gap: 52px;
   inline-size: var(--inline-size);
 }
@@ -245,7 +247,7 @@ svg {
   mix-blend-mode: difference;
 }
 
-.save__section {
+.save__container {
   display: flex;
   justify-content: center;
   margin-block-start: 55px;
